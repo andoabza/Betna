@@ -1,0 +1,103 @@
+/* 404.css 
+write a 404 page with a navbar and a button to go back to the home page and show a message that the page is not found and the navbar should be responsive and the button should be styled with css and the page should be styled with css and the button should be centered in the middle of the page and the message should be centered in the middle of the page and the navbar should be at the top of the page and the button should be at the bottom of the page and the message should be at the top of the page with animation and the button should have a hover effect and the message should have a fade in effect and the navbar should have a hover effect and the button should have a click effect and the message should have a click effect and the navbar should have a click effect and the button should have a focus effect and the message should have a focus effect and the navbar should have a focus effect and the button should have a blur effect and the message should have a blur effect and the navbar should have a blur effect and the button should have a transition effect and the message should have a transition effect and the navbar should have a transition effect and the button should have a transform effect and the message should have a transform effect and the navbar should have a transform effect and the button should have a scale effect and the message should have a scale effect and the navbar should have a scale effect and the button should have a rotate effect and the message should have a rotate effect and the navbar should have a rotate effect and the button should have a skew effect and the message should have a skew effect and the navbar should have a skew effect and the button should have a translate effect and the message should have a translate effect and the navbar should have a translate effect and the button should have a translate3d effect and the message should have a translate3d effect and the navbar should have a translate3d effect and the button should have a translateZ effect and the message should have a translateZ effect and the navbar should have a translateZ effect and the button should have a translateY effect and the message should have a translateY effect and the navbar should have a translateY effect and the button should have a translateX effect and the message should have a translateX effect and the navbar should have a translateX effect 
+// and the button should have a translate3d effect and the message should have a translate3d effect and the navbar should have a translate3d effect and the button should have a translateZ effect and the message should have a translateZ effect and the navbar should have a translateZ effect and the button should have a translateY effect and the message should have a translateY effect and the navbar should have a translateY effect and the button should have a translateX effect and the message should have a translateX effect and the navbar should have a translateX effect
+*/
+
+
+/* 
+ <div className='not-found'>
+            <Navbar />
+            <div className='not-found-content'>
+                <h1>404</h1>
+                <p>Page Not Found</p>
+                <button onClick={() => navigate('/home')}>Go to Home</button>
+            </div>
+        </div> */
+
+.not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.not-found-content {
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+.not-found-content h1 {
+    font-size: 5rem;
+    margin: 0;
+    color: #333;
+}
+.not-found-content p {
+    font-size: 1.5rem;
+    color: #666;
+    margin: 20px 0;
+}
+.not-found-content button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.not-found-content button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+.not-found-content button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.not-found-content button:active {
+    transform: scale(0.95);
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@media (max-width: 768px) {
+    .not-found-content h1 {
+        font-size: 3rem;
+    }
+    .not-found-content p {
+        font-size: 1.2rem;
+    }
+    .not-found-content button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+@media (max-width: 480px) {
+    .not-found-content h1 {
+        font-size: 2rem;
+    }
+    .not-found-content p {
+        font-size: 1rem;
+    }
+    .not-found-content button {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+}
+@media (max-width: 320px) {
+    .not-found-content h1 {
+        font-size: 1.5rem;
+    }
+    .not-found-content p {
+        font-size: 0.8rem;
+    }
+    .not-found-content button {
+        font-size: 0.7rem;
+        padding: 4px 8px;
+    }
+}
