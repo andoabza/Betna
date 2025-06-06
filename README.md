@@ -4,7 +4,11 @@ Welcome to **Betna** – your modern solution for hassle-free house renting!
 
 ## Overview
 
-[logo](frontend/public/logo.png)
+
+<p align="center">
+    <img src="frontend/public/logo.png" alt="Betna Logo" width="150"/>
+</p>
+
 
 Betna is a user-friendly web application designed to simplify the process of finding and renting houses. Whether you're a landlord or a tenant, Betna connects you with the right people, fast.
 
@@ -14,7 +18,7 @@ Betna is a user-friendly web application designed to simplify the process of fin
 - 🏡 **Detailed Listings:** High-quality photos, descriptions, and virtual tours.
 - 💬 **Instant Messaging:** Communicate directly with landlords or tenants.
 - 📅 **Booking System:** Schedule visits and manage your rentals with ease.
-- 🔒 **Secure Payments:** Safe and transparent transactions.
+- 🔒 **Free Payments:** Safe No Payment.
 
 ## Tech Stack
 
