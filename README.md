@@ -1,29 +1,51 @@
-# Backend
+# Betna 🏠
 
-This directory contains the backend code for the project, built with Node.js and Express.
+Welcome to **Betna** – your modern solution for hassle-free house renting!
+
+## Overview
+
+[logo](frontend/images/logo.png)
+
+Betna is a user-friendly web application designed to simplify the process of finding and renting houses. Whether you're a landlord or a tenant, Betna connects you with the right people, fast.
+
+## Features
+
+- 🔍 **Smart Search:** Find houses by location, price, and amenities.
+- 🏡 **Detailed Listings:** High-quality photos, descriptions, and virtual tours.
+- 💬 **Instant Messaging:** Communicate directly with landlords or tenants.
+- 📅 **Booking System:** Schedule visits and manage your rentals with ease.
+- 🔒 **Secure Payments:** Safe and transparent transactions.
+
+## Tech Stack
+
+- **Frontend:** [Ogo](https://ogo.dev) (Lightning-fast, modern UI)
+- **Backend:** Node.js, Express
+- **Database:** MongoDB
 
 ## Getting Started
 
-1. **Install dependencies:**
+1. Clone the repo:
     ```bash
+    git clone https://github.com/andoabza/betna.git
+    ```
+2. Install dependencies:
+    ```bash
+    cd betna
     npm install
     ```
-2. **Run the development server:**
+3. Run the app:
     ```bash
     npm start
     ```
 
-## Project Structure
+## Contributing
 
-```
-backend/
-├── controllers/    # Application modules and business logic
-├── models/         # Database models and schemas
-├── node_modules/   # Installed dependencies
-├── package.json    # Project metadata, scripts, and dependencies
-├── server.js       # Entry point for the Express backend server
-```
+We welcome contributions! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## License
 
-See [LICENSE](../LICENSE) for details.
+MIT License
+
+---
+
+Find your next home with **Betna**!
